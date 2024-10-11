@@ -1,0 +1,242 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(270deg, #4d0661 0%, #2965d3 100%);
+    color: #fff;
+    overflow-x: hidden;
+}
+
+header {
+    background: rgba(76, 19, 103, 0.629);
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    padding-top: 0.5rem;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1.5rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f4f4f4;
+}
+
+section {
+    padding: 4rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#about, #contact {
+    text-align: center;
+}
+
+
+#about h2 {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+    color: #ddd;
+}
+
+
+#projects {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 4rem 0;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.project {
+    background: rgba(89, 17, 60, 0.527);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.5s ease;
+}
+
+#skills {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 4rem 0;
+}
+
+
+.skills {
+    background: rgba(89, 17, 60, 0.527);
+    padding: 2rem;
+    border-radius: 40px;
+    text-align: center;
+    transition: transform 0.5s ease;
+}
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.skills:hover {
+    transform: translateY(-30px);
+}
+
+.skills h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+#Education {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 4rem 0;
+}
+
+
+.Education {
+    background: rgba(89, 17, 60, 0.527);
+    padding: 2rem;
+    border-radius: 40px;
+    text-align: center;
+    transition: transform 0.5s ease;
+}
+
+.Education h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+#exp{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 4rem 0;
+}
+
+
+.exp {
+    background: rgba(184, 129, 162, 0.527);
+    padding: 2rem;
+    border : 10 px solid white;
+    border-radius: 40px;
+    text-align: center;
+    transition: transform 0.5s ease;
+}
+.exp-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    border : 10 px solid white;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.project:hover {
+    transform: translateY(-30px);
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.project p {
+    font-size: 1rem;
+    color: #bbb;
+    margin-bottom: 1.5rem;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    background-color: #1e0828;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.project a:hover {
+    background-color: #3498db;
+}
+
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#contact p {
+    font-size: 1.1rem;
+    color: #ddd;
+    line-height: 1.8;
+}
+
+#contact a {
+    color: #2682c4;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    color: #bbb;
+}
